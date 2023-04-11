@@ -1,0 +1,154 @@
+@import url('reset.css');
+@import url('global.css');
+@import url('components/navigator.css');
+@import url('components/pills.css');
+@import url('components/_link-button.css');
+@import url('components/_gallery.css');
+
+
+.s-wrapper {
+    display: flex;
+    height: 100vh;
+    flex-flow: row nowrap;
+    background-color: aqua;
+}
+
+.s-wrapper video{
+    position: fixed;
+    width: 100%;
+}
+
+.s-wrapper .s-left-column {
+    width: 100px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    padding-right: 50px;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.s-wrapper .s-main-content {
+    height: 100%;
+    width: 100%;
+    padding-left: 130px;
+    position: relative;
+}
+
+.s-wrapper .s-main-content__top{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.s-wrapper .s-main-content__bottom{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.s-wrapper .s-main-content .s-logo img {
+    margin-top: 10px;
+    margin-left: -10px;
+    margin-bottom: 30px;
+}
+
+.s-wrapper .s-main-content__top .s-description {
+    margin-top: -15px;
+    background-color: rgba(0,0,0,7);
+    max-width: 75%;
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+.s-wrapper .s-main-content__top .s-description__text p{
+    color: white;
+    line-height: 170%;
+}
+
+.s-wrapper .s-main-content__top .s-description .pills {
+    margin-bottom: 20px;
+}
+
+.s-wrapper .s-main-content .s-links ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.s-spiderman-01-01 {
+    background-image: url('../images/spiderman-tobey/movie-01/background.png');
+    background-size: cover;    
+}
+
+.s-logo-2{
+    width: 100%;    
+    margin-top: -5px;
+    margin-left: -25px;
+}
+
+.s-logo-3 {
+    margin-top: -25px;
+    margin-left: -15px;
+    height: 165px;
+}
+
+.s-logo-am1 {
+    margin-top: -25px;
+    margin-left: -40px;
+}
+
+.s-logo-tom1 img{
+    width: 65%;
+    height: 65%;
+    margin-left: -15px;
+    margin-top: 20px;
+}
+
+.s-wrapper .s-main-content__top .s-description-tom1 {
+    margin-top: -60px;
+    background-color: rgba(0,0,0,7);
+    max-width: 83%;
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+.s-logo-tom2 img{
+    width: 85%;
+    height: 45%;
+    margin-left: -15px;
+    margin-top: 20px;
+    
+}
+
+.s-wrapper .s-main-content__top .s-description-tom2 {
+    margin-top: -160px;
+    background-color: rgba(0,0,0,7);
+    max-width: 83%;
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+.s-wrapper .s-main-content__top .s-description-tom3 {
+    margin-top: -240px;
+    background-color: rgba(0,0,0,7);
+    max-width: 88%;
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+.s-logo-tom3 img{
+    width: 85%;
+    height: 45%;
+    margin-left: -15px;
+    margin-top: 2px;
+    
+}
